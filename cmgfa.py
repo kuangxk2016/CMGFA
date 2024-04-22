@@ -19,11 +19,11 @@ from mmdet3d.models import FUSIONMODELS
 
 from .base import Base3DFusionModel
 
-__all__ = ["GMMFA"]
+__all__ = ["CMGFA"]
 
 
 @FUSIONMODELS.register_module()
-class GMMFA(Base3DFusionModel):
+class CMGFA(Base3DFusionModel):
     def __init__(
         self,
         encoders: Dict[str, Any],

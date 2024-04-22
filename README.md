@@ -1,5 +1,7 @@
 # CMGFA
 
+The complete code will be updated after the article is accepted.
+
 ## Results
 
 ### BEV Map Segmentation (on nuScenes validation)
